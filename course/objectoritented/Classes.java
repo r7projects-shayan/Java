@@ -25,6 +25,12 @@ class Person{
     }
 }
 
+//_ Parametirized constructor
+
+
+
+
+
 
 public class Classes{
 
@@ -61,9 +67,12 @@ double salary = sc.nextDouble();
 p1.salary = salary;
 
 
-
-
 p1.displayperson();
+
+
+Person p2 = new Person(); //_ this Person() is a constructor which is non parametirized
+
+
 
 
 
